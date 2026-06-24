@@ -1,5 +1,5 @@
 function areaRetangulo(largura: number, altura: number): number {
     return largura * altura;
 }
-let myretangulo = [5, 3];
-console.log ("meu retangulo tem 5 de largura e 3 de altura, sua área é:", areaRetangulo(myretangulo[0], myretangulo[1]));
+const meuretangulo = {largura: 5, altura: 3};
+console.log ("meu retangulo tem", meuretangulo.largura, "de largura e", meuretangulo.altura, "de altura, sua área é:", areaRetangulo(meuretangulo.largura, meuretangulo.altura));
